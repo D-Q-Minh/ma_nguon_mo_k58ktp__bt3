@@ -15,7 +15,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 123456
       MYSQL_DATABASE: wordpress_db
-      MYSQL_USER: admin
+      MYSQL_USER: wp_user
       MYSQL_PASSWORD: 123456
     volumes:
       - db_data:/var/lib/mysql
@@ -47,8 +47,20 @@ services:
     volumes:
       - wp_data:/var/www/html
 
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflare_tunnel
+    restart: always
+    command: tunnel --no-autoupdate run
+    environment:
+      - TUNNEL_TOKEN=eyJhIjoiMzljZDJiMmQyNDNhZDU3MzA2ZjFjMGY0OTA5ZTZlYWIiLCJ0IjoiNmY0M2Q4NjktNzBhYy00NjY1LWI2OWYtOTlkYjUwNjI4ODkwIiwicyI6IlpXSTFNbVV4TkRjdFptTTNOeTAwTURJeExUZzFObUl0WWpaak9EUTVOVFU0T0RnMiJ9
+    depends_on:
+      - wordpress
+
 volumes:
   db_data:
   wp_data:
 ```
+###### chạy docker compose up -d
 
+###### tạo tunnel ở cloudflare
