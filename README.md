@@ -84,7 +84,7 @@ volumes:
 ###### trên thiết bị khác mạng:
 <img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/6b43a1f0-f541-4653-b7ec-69ba8c7a0bd1" />
 
-#### => đã truy cập được web
+#### => đã truy cập được web và tạo được bài viết
 
 #### nhận xét:
 ###### Công sức: Rất ít về mặt lập trình giao diện, nhưng tốn công cấu hình hạ tầng (Docker, Network, Tunnel).
