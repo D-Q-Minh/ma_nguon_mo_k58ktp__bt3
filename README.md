@@ -73,3 +73,5 @@ volumes:
 <img width="419" height="449" alt="image" src="https://github.com/user-attachments/assets/1ccd55f8-110b-4cc8-a3ce-039e340bc15e" />
 ###### tạo user và đăng nhập
 <img width="1348" height="631" alt="image" src="https://github.com/user-attachments/assets/855d269a-a596-42d6-bffd-cd0ae1808542" />
+
+###### tạo bài viết:
