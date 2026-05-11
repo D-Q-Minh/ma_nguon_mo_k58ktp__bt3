@@ -68,4 +68,8 @@ volumes:
 ###### chạy docker compose up -d
 <img width="517" height="118" alt="image" src="https://github.com/user-attachments/assets/dc4b917e-d82c-4474-b09a-5e381fa407fc" />
 
-###### 
+###### mariadb, wordpress đã lên
+<img width="242" height="174" alt="image" src="https://github.com/user-attachments/assets/8e6a785a-aa20-4239-9ba3-b7597f81a7fb" />
+<img width="419" height="449" alt="image" src="https://github.com/user-attachments/assets/1ccd55f8-110b-4cc8-a3ce-039e340bc15e" />
+###### tạo user và đăng nhập
+<img width="1348" height="631" alt="image" src="https://github.com/user-attachments/assets/855d269a-a596-42d6-bffd-cd0ae1808542" />
