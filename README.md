@@ -61,6 +61,11 @@ volumes:
   db_data:
   wp_data:
 ```
-###### chạy docker compose up -d
-
 ###### tạo tunnel ở cloudflare
+<img width="818" height="68" alt="image" src="https://github.com/user-attachments/assets/3473a54b-dfc4-489c-82b3-bae3f57cf445" />
+<img width="1050" height="67" alt="image" src="https://github.com/user-attachments/assets/0aa34d08-b8e5-4440-9dd7-747380c02a87" />
+
+###### chạy docker compose up -d
+<img width="517" height="118" alt="image" src="https://github.com/user-attachments/assets/dc4b917e-d82c-4474-b09a-5e381fa407fc" />
+
+###### 
