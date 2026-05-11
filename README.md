@@ -77,3 +77,16 @@ volumes:
 ###### tạo bài viết:
 <img width="1091" height="659" alt="image" src="https://github.com/user-attachments/assets/4016d027-4815-4815-b9d9-cb93ceeb88fc" />
 <img width="1169" height="687" alt="image" src="https://github.com/user-attachments/assets/65a98558-1b5c-4c0d-84b7-8a56ca72bc4e" />
+
+###### kiểm tra:
+###### trên máy chủ:
+<img width="1364" height="670" alt="image" src="https://github.com/user-attachments/assets/8780bcb0-3c38-4126-9087-7579cc13eac4" />
+###### trên thiết bị khác mạng:
+<img width="869" height="1884" alt="image" src="https://github.com/user-attachments/assets/6b43a1f0-f541-4653-b7ec-69ba8c7a0bd1" />
+
+###### => đã truy cập được web
+
+###### nhận xét:
+###### Công sức: Rất ít về mặt lập trình giao diện, nhưng tốn công cấu hình hạ tầng (Docker, Network, Tunnel).
+###### Độ khó: Dễ sử dụng cho người dùng cuối (viết bài, đăng ảnh). Khó ở đoạn xử lý lỗi SSL/HTTPS khi chạy sau Proxy.
+###### Tài nguyên:	Tốn khoảng 600MB - 800MB RAM. MariaDB chiếm dụng RAM đáng kể để duy trì hiệu suất database.
